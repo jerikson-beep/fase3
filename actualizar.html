@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0, maximun-scale=1.0, minimun.sacle=1.0" >
+    <meta name="author" content="Jerikson Andrey Acero Ruiz">
+    <meta name="description" content="aves de diferentes lugares de colombia.">
+    <title>Computer Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="logo.ico">
+    <link rel="stylesheet" href="fonts.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="main.js"></script>
+    <link href = "https://fonts.googleapis.com/css2? family = New + Tegomin & display = swap" rel = "hoja de estilo">
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body >
+    <h1> <strong>Computer Store.</strong></h1>                 
+     <header>   
+        <div class="menu">  
+            <a href="#" class="bt-menu"><span class="icon-menu"></span>Menu</a>
+        </div>
+        <nav>
+            <ul>
+                <li class="submenu">
+                    <a href="inicio.html"><span class="icon-save"></span> Administrador</a>
+                </li>
+                <li class="submenu">
+                    <a href="#"><span class="icon-clipboard"></span> Inventario <span class="icon-chevron-down"></span></a>
+                    <ul class="hijos">
+                        <li><a href="calculadora.html">Calculadora de valor</a></li>
+                        <li><a href="convertidor.html">convertidor de datos</a></li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><span class="icon-briefcase"></span> Utilidades<span class="icon-chevron-down"></span></a>
+                    <ul class="hijos">
+                        <li><a href="ingresar.html">Ingresar producto</a></li>
+                        <li><a href="actualizar.html">Actualizar producto</a></li>
+                        <li><a href="eliminar.html">eliminar producto</a></li>
+                        <li><a href="consultar.html">consultar producto</a></li>
+                    </ul>                
+                </li>                
+            </ul>
+        </nav> 
+    </header>    
+    <div class="container">
+        <h1><strong>Actualizar Productos</strong></h1>
+        <form name="f1" class="form-horizontal" action="RegistrarProducto.html" role="form" method="post">
+          <div class="form-group">
+            <h3>codigo del producto</h3>
+            <input type="text" class="form-control"   name="CodigoProducto"  placeholder="ingrese Codigo del producto">
+            <br>
+            <h3>Nombre del Producto.</h3>
+            <input type="text" class="form-control"   name="NombreProducto"  placeholder="ingrese solo texto">
+            <br>
+            <h3>Marca del producto.</h3>
+            <input type="text" class="form-control"   name="MarcaProducto"  placeholder="ingrese solo texto">
+            <br>
+            <h3>Precio del producto.</h3>
+            <input type="text" class="form-control"   name="PrecioProducto"  placeholder="ingrese solo valores monetarios">
+            <br>
+            <h3>Cantidad comprada.</h3>
+            <input type="text" class="form-control"   name="Cantidad"  placeholder="ingrese solo valores numericos">
+            <br>
+            <br>
+            <input type="button" name="" value="Actualizar Producto"   class="btn btn-primary">
+            <br>
+          </div>
+        </form>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
